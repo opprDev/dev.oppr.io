@@ -145,6 +145,57 @@ fieldset[disabled] .btn-xl.active {
     color: #354b60;
     background-color: #fff
 }
+
+/* FIXME */
+
+.btn-xl-g {
+    color: #fff;
+    background-color: #354b60;
+    border-color: #354b60;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px
+}
+.btn-xl-g:hover,
+.btn-xl-g:focus,
+.btn-xl-g:active,
+.btn-xl-g.active,
+.open .dropdown-toggle..btn-xl-g {
+    color: #fff;
+    background-color: #354b60;
+    border-color: #ecf0f1
+}
+.btn-xl-g:active,
+.btn-xl-g.active,
+.open .dropdown-toggle..btn-xl-g {
+    background-image: none
+}
+.btn-xl-g.disabled,
+.btn-xl-g[disabled],
+fieldset[disabled] .btn-xl-g,
+.btn-xl-g.disabled:hover,
+.btn-xl-g[disabled]:hover,
+fieldset[disabled] .btn-xl-g:hover,
+.btn-xl-g.disabled:focus,
+.btn-xl-g[disabled]:focus,
+fieldset[disabled] .btn-xl-g:focus,
+.btn-xl-g.disabled:active,
+.btn-xl-g[disabled]:active,
+fieldset[disabled] .btn-xl-g:active,
+.btn-xl-g.disabled.active,
+.btn-xl-g[disabled].active,
+fieldset[disabled] .btn-xl-g.active {
+    background-color: #354b60;
+    border-color: #354b60
+}
+.btn-xl-g .badge {
+    color: #354b60;
+    background-color: #fff
+}
+
 .navbar-default {
     background-color: #222;
     border-color: transparent
